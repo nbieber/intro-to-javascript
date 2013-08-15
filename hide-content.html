@@ -4,10 +4,10 @@
   </head>
   <body>
     <p id="hide">Click to hide me!</p>
-    <script src="mootools.js"></script>
+    <script src="jquery.js"></script>
     <script>
-    $('hide').addEvent('click', function() {
-      $('hide').fade('out');
+    $('#hide').click(function () {
+      $('#hide').fadeOut("slow");
     });
     </script>
   </body>
