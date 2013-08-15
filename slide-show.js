@@ -17,14 +17,14 @@ document.ready = function() {
   // On click, advance to the next slide
   $('#slides').click( function() {
     
-    $($('#slides img')[n]).hide();
+    $($('#slides img')[n]).fadeOut();
 
     // Increment the position by one
     // The modulo operator (%) resets n back to 0 if it exceeds count
     n = (n + 1) % count;
     
     // Slide the view to the correct position
-    $($('#slides img')[n]).show();
+    $($('#slides img')[n]).fadeIn();
     
   }); // click event
 
