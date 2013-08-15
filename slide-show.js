@@ -5,28 +5,34 @@ document.ready = function() {
   // How wide each image is
   var width = 991;
   
-  // Current position of the slide show
-  var n = 0;
-  
   // Number of total slides
   var count = $('#slides img').length;
   
   // Dynamically resize the inner DIV element
   $('#inner').css('width', width * count);
+
+  // Current position of the slide show
+  var n = 0;
   
   // On click, advance to the next slide
   $('#slides').click( function() {
+    // YOUR CODE HERE - hide the current image, and show the next image
     
-    $($('#slides img')[n]).fadeOut();
 
-    // Increment the position by one
-    // The modulo operator (%) resets n back to 0 if it exceeds count
-    n = (n + 1) % count;
-    
-    // Slide the view to the correct position
-    $($('#slides img')[n]).fadeIn();
+
+
+
     
   }); // click event
 
 }; // domready event
 
+// Hide the nth image
+function hide(n) {
+  $($('#slides img')[n]).fadeOut();  
+}
+
+// Show the nth image
+function show(n) {
+  $($('#slides img')[n]).fadeIn();  
+}
