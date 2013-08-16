@@ -6,7 +6,7 @@ I have adapted it into a 3-hour lesson plan for the [New York Code & Design Acad
 
 There are four main things here:
 
-* `intro-to-javascript.key` - Dan's original Keynote slides
+* `intro-to-javascript.ppt` - My powerpoint slides
 * `hello-world.html` - exactly what it sounds like
 * `hide-content.html` - a simple jQuery `fade` example
 * `slide-show.html` - a more fully-fledged slide show example
