@@ -26,3 +26,11 @@ document.ready = function() {
   }); // click event
 
 }; // domready event
+
+function hide(n) {
+  $('#slides img').eq(n).fadeOut();
+}
+
+function show(n) {
+  $('#slides img').eq(n).fadeIn();  
+}
