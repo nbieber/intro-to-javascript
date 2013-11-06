@@ -26,13 +26,3 @@ document.ready = function() {
   }); // click event
 
 }; // domready event
-
-// Hide the nth image
-function hide(n) {
-  $($('#slides img')[n]).fadeOut();  
-}
-
-// Show the nth image
-function show(n) {
-  $($('#slides img')[n]).fadeIn();  
-}
