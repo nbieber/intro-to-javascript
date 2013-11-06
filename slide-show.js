@@ -5,11 +5,11 @@ document.ready = function() {
   // How wide each image is
   var width = 991;
   
-  // Number of total slides
-  var count = $('#slides img').length;
-  
   // Dynamically resize the inner DIV element
   $('#inner').css('width', width * count);
+  
+  // Number of total slides
+  var count = $('#slides img').length;
 
   // Current position of the slide show
   var n = 0;
