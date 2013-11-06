@@ -16,21 +16,23 @@ document.ready = function() {
   
   // On click, advance to the next slide
   $('#slides').click( function() {
-    // YOUR CODE HERE - hide the current image, and show the next image
+    //hide the current image
+        // YOUR CODE HERE
     
+    //increment n, reset back to 0 if it exceeds count
+       // YOUR CODE HERE
 
+    //show the next image
+      // YOUR CODE HERE
 
-
-
-    
   }); // click event
 
 }; // domready event
 
 function hide(n) {
-  $('#slides img').eq(n).fadeOut();
+  // YOUR CODE HERE
 }
 
 function show(n) {
-  $('#slides img').eq(n).fadeIn();  
+  // YOUR CODE HERE
 }
